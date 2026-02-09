@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" rx="12" fill="#e5e7eb"/>
+  <text x="400" y="190" text-anchor="middle" fill="#6b7280" font-family="system-ui, sans-serif" font-size="28" font-weight="600">Sample Image</text>
+  <text x="400" y="230" text-anchor="middle" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="16">Replace this with your own images</text>
+</svg>

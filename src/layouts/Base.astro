@@ -1,0 +1,95 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Tony Bowen's personal blog" } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script is:inline>
+      // Apply saved theme before paint to avoid flash
+      (function () {
+        const saved = localStorage.getItem("theme");
+        if (
+          saved === "dark" ||
+          (!saved && window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <a href="/" class="site-title">Tony Bowen</a>
+        <div class="header-right">
+          <nav class="header-links">
+            <a href="/about/" class="header-link">About</a>
+            <a href="https://www.linkedin.com/in/tony-bowen/" target="_blank" rel="noopener noreferrer" class="header-link">💼 LinkedIn</a>
+            <a href="mailto:contact@tonybowen.me" class="header-link">✉️ Email</a>
+          </nav>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <span id="theme-icon">&#9790;</span>
+          </button>
+        </div>
+      </header>
+
+      <main class="site-main">
+        <slot />
+      </main>
+
+      <footer class="site-footer">
+        &copy; {year} Tony Bowen. All rights reserved.
+      </footer>
+    </div>
+
+    <script is:inline>
+      (function () {
+        const btn = document.getElementById("theme-toggle");
+        const icon = document.getElementById("theme-icon");
+
+        function updateIcon() {
+          const isDark =
+            document.documentElement.getAttribute("data-theme") === "dark";
+          icon.textContent = isDark ? "\u2600" : "\u263E";
+        }
+
+        updateIcon();
+
+        btn.addEventListener("click", function () {
+          const isDark =
+            document.documentElement.getAttribute("data-theme") === "dark";
+          if (isDark) {
+            document.documentElement.removeAttribute("data-theme");
+            localStorage.setItem("theme", "light");
+          } else {
+            document.documentElement.setAttribute("data-theme", "dark");
+            localStorage.setItem("theme", "dark");
+          }
+          updateIcon();
+        });
+      })();
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  @import "../styles/global.css";
+</style>
