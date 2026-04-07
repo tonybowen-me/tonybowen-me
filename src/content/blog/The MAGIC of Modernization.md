@@ -12,7 +12,7 @@ When I first started my career, I was at a major commerical bank whose colors ar
 
 Anyway. Code that's 3 days older than me, which at the time of writing this is 33 years old. Does that mean the code should be modernized? Yes, it does. But does it ACTUALLY mean it needs to be modernized? All jokes aside, no, not necessarily.
 
-Having that's 33+ years old driving the backbone of your business doesn't necessarily mean that you need to immediately run to bank and pull money out to fund a modernization effort. Smart modernization comes out of business and/or technical necessity, not just chasing new technologies or trends (*cough* shove AI at everything *cough*) for the sake of doing so.
+Having that's 33+ years old driving the backbone of your business doesn't necessarily mean that you need to immediately run to bank and pull money out to fund a modernization effort. Smart modernization comes out of business and/or technical necessity, not just chasing new technologies or trends for the sake of doing so.
 
 To me, Modernization sits as a cornerstone of business and technology infrastructure. Sort of like how when you do the laundry, you're never actually done, because the clothes you're wearing are technically dirty. To modernize effectively, you need to treat the facets of the technology solution you'd like to modernize as roadmap deliverables, directly how you'd treat the ability to use OCR to scan a document as a new technology deliverable dreamed up by a product owner.
 
