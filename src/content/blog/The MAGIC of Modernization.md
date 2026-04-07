@@ -89,11 +89,12 @@ I've got a ton more questions that can be included, but all things considered, t
 
 ## Next Steps
 
-One of the largest key components of modernization in any capacity is understanding the driver for modernization. We have modernization baked into our day-to-day without really even realizing. Take for example that old 2011 Honda Civic you've had for the past 15 years. You don't have a payment on it. It's been running like a dream for the last 5 years since the engine was rebuilt. But at some point, there's some motivator for you to hand over the keys one final time in exchange for a 2026 Honda Civic that you'll have until 2040. It could be something breaks that's not fixable, or maybe you need a larger vehicle because of life changes. Maybe the 2011 has become extremely hard to maintain.
+One of the largest key components of modernization in any capacity is understanding the driver for modernization. We have modernization baked into our day-to-day without really even realizing, and we consistently will make decisions to "modernize" without even realizing that's what we're doing. Take for example that old 2011 Honda Civic you've had for the past 15 years. You don't have a payment on it. It's been running like a dream for the last 3 years since the engine was rebuilt. But at some point, there's some motivator for you to hand over the keys one final time in exchange for a 2026 Honda Civic that you'll have until 2040. It could be something breaks that's not fixable, or maybe you need a larger vehicle because of life changes. Maybe the 2011 has become extremely hard to maintain.
 
 Regardless, working to identify WHY modernization needs to happen often becomes the first step in planning a successful modernization effort.
 
-Collectively, I'll be breaking this post up into 5 parts in total:
+So that's all great. There's been a lot of words here we've said, but at the end of the Magic the Gathering lesson, how does this help YOU, the reader? Great question. We'll break this up so that we CAN help you, into 5 parts in total:
+
 1. Intro / Summary (This one!)
 2. How do you plan for modernization?
 3. How do you do modernization while balancing your business needs?
