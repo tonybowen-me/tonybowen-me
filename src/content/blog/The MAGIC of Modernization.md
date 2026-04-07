@@ -1,7 +1,7 @@
 ---
 title: "The MAGIC of Modernization: An Introduction"
-date: 2026-02-09
-description: "Welcome to my new blog. A quick intro to what I'm building and why I started writing."
+date: 2026-04-07
+description: "We're talking Application Modernization today with the help of a Trading Card Game"
 thumbnail: "/images/MTG_Modernization_1.png"
 ---
 
@@ -67,10 +67,12 @@ In Magic the Gathering, when you're building a commander deck, you're typically 
 
 Your deck-building and gameplan needs to be effectively built around the Magic Color Pie, your Commander, and your decks overall winning strategy. That said, you're trying to execute your decks overall winning strategy while simultaneously stopping your opponents from winning the game with their OWN win strategy, which immediately introduces extremely complex dynamics on a game that uses a stack equivocal to programming. When building out a deck and gameplan, you're primarily focused on:
 
-1. How do my deck win? Do I need to find specific spells? Do I need to win through combat damage? Do I win passively with cards that say "I Win"?
-2. How do I stop 
+1. What is my gameplan?
+2. How do I plan around my gameplan?
+3. How does my gameplan change against the other 3 players and THEIR gameplans?
+4. What is even going on?
 
-Your application modernization efforts need to be effectively planned around to be successful, which has an infintitely-finite number of considerations that need to be made before you actually start, including:
+Similarly to magic, you can plan as much as your heart desires, but sometimes even the best of planning doesn't prepare you for making on-the-fly decisions during application/architecture modernization. That said, planning is the first step, and application modernization efforts need to be effectively planned around to be successful, which has an infintitely-finite number of considerations that need to be made before you actually start, including:
 
 1. What portion of your application stack are you looking to modernize?
 2. Why do you want to modernize? Is it for Security reasons? Scaling? Is your current application stack not maintainable? Do you want to be in a position to adopt new technologies like AI?
@@ -81,8 +83,9 @@ Your application modernization efforts need to be effectively planned around to 
 5. How do you do your rollout? Do you do a bigbang cutover? Blue/Green Deployments?
 6. How do you measure success? Does the Technology definition of success match the Business definition of success?
 7. How do you ANSWER all of these questions?
+8. What do you do when the goals of modernization change mid-flight?
 
-I've got a ton more questions that can be included, but these 7, which coincidentally match the number of high-level phases of a turn in Magic the Gathering, seem like a great way to get started.
+I've got a ton more questions that can be included, but all things considered this seems like a great way to get started in having our conversation.
 
 ## Key Modernization components
 
